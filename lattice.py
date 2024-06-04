@@ -10,8 +10,8 @@ plt.ion()  # Turn on interactive mode
 
 car_initial_x = 0
 car_initial_y = 50 
-# 轮子的参数
-wheel_length = draw_car.wheel_length  # 轮子的长度
+
+wheel_length = draw_car.wheel_length  
 car_width,car_height = draw_car.car_width,draw_car.car_height 
 # Animation settings
 fps = 60
